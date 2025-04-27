@@ -1,5 +1,6 @@
 'use client'
 import './header.css';
+import '../../styles/media.css';
 
 
 export default function Header(){
