@@ -1,8 +1,9 @@
 'use client'
-import { useState } from 'react';
-import InactiveButton from '../inactiveButton/InactiveButton';
 import './itemTable.css';
 import '../../styles/media.css';
+import { useState } from 'react';
+import InactiveButton from '../inactiveButton/InactiveButton';
+
 
 export default function ItemTable({status, id, name, email, phone, openModal}){ //Passando props e a função do modal
     const [isActive, setIsActive] = useState(() => {

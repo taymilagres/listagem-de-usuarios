@@ -1,5 +1,3 @@
-@import '../../styles/globals.css';
-@import '../../styles/typography.css';
 
 .inactive-button {
     background-color: var(--primary-btn-color);
