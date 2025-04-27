@@ -1,36 +1,19 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Design de Interface para consumo de API
 
-## Getting Started
+## Objetivo: 
+Desenvolvimento de interface para uma tabela de usuários, integrada/consumida pela API  `https://jsonplaceholder.typicode.com/users` - _api online com dados fictícios para testes_ - incluindo a função de inativação de determinado usuário da tabela, assim como a exibição de detalhes de cada usuário selecionado.
 
-First, run the development server:
+## Como acessar?
+- **Deploy:** <a href="https://usuarioscadastrados.vercel.app/"> Clique aqui para acessar pelo navegador!<a/>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Clone:** <br>
+  1- Abra o Visual Studio Code (caso nao possua, <a href="https://code.visualstudio.com/">Clique aqui!<a/>) <br><br>
+  2- Abra o terminal do VScode e digite: <br>
+  `git clone https://github.com/taymilagres/listagem-de-usuarios.git` <br><br>
+  3- Logo após acesse a pasta listagem-de-usuarios: <br>
+  `cd listagem-de-usuarios` <br><br>
+  4- Instale as dependencias:<br>
+  `npm install` <br><br>
+  5- Rode o comando para acessar pelo navegador: <br>
+  `npm run dev`<br>
+  
