@@ -1,0 +1,21 @@
+@import '../../styles/globals.css';
+@import '../../styles/typography.css';
+
+.inactive-button {
+    background-color: var(--primary-btn-color);
+    width: 10vw;
+    height: 2.5em;
+    border: none;
+    border-radius: 10px;
+    font-size: 1vw;
+    margin-left: 3%;
+    color: var(--white-paragraph-color);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.inactive-button.inactive {
+    background-color: var(--border-color); 
+    color: var(--paragraph-color-inactive); 
+    cursor: pointer;
+}

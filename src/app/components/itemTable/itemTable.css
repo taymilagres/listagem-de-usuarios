@@ -1,0 +1,47 @@
+@import '../../styles/globals.css';
+@import '../../styles/typography.css';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.box-users-data {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    width: 100%;
+    border-bottom: solid 1px var(--border-color);
+    
+}
+
+.item-table {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    cursor: pointer;
+}
+
+.item {
+    width: 16.6%;
+    text-align: center;
+    font-size: 1.1vw ;
+}
+
+.status {
+    border: solid 1px var(--active-color);
+    color: var(--active-color);
+    height: 2vw;
+    font-weight: 600;
+    justify-content: center;
+    display: flex;
+    border-radius: 15px;
+}
+
+.inactive-text {
+    color: var(--paragraph-color-inactive);
+}
+
+.inactive-status {
+    color: var(--inactive-color); 
+    border: solid 1px var(--inactive-color);
+    font-weight: 600;
+}

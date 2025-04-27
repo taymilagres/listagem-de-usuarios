@@ -1,0 +1,62 @@
+
+@media only screen and (max-width: 600px) {
+    .status-component {
+        display: none;
+    }
+
+    .box-users-data .item.status {
+        display: none;
+    }    
+
+    .component {
+        width: 19%;
+        text-align: center;
+
+    }
+
+    .item {
+        width: 20% !important;
+        font-size: 1.3vw !important ;    
+        padding-left: 10px; 
+    }
+
+    .inactive-button {
+        font-size: 1.4vw !important ; 
+    }
+
+    .top-content h2 {
+        justify-content: center;
+        margin-left: 14px;
+        font-size: 3.5vw !important;
+    }
+    .components-table {
+        font-size: 2vw;
+        gap: 8px;
+
+    }
+
+    .item-table {
+        gap: 15px;
+    }
+    
+    .modal-content {
+        height: 450px !important; 
+    }
+
+    .modal p {
+        font-size: 2vw !important;
+    }
+    .modal ul li {
+        font-size: 2vw !important;
+    }
+
+    .modal h4 {
+        font-size: 4vw !important;
+    }
+    .close-modal {
+        width: 30vw !important;
+        height: 4vh !important;
+        font-size: 2.5vw !important;
+    }
+    
+}
